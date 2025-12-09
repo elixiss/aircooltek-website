@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - AirCooltek</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <img src="assets/img/logo.png" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Company</a></li>
+            <li><a class="active" href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Our Services</h1>
+</section>
+
+<section class="services-list">
+    <div class="service-box">Aircon Installation</div>
+    <div class="service-box">General Cleaning</div>
+    <div class="service-box">Pull-Down / Pump-Down</div>
+    <div class="service-box">Dismantling</div>
+    <div class="service-box">Unit Relocation</div>
+    <div class="service-box">Repair Services</div>
+    <div class="service-box">System Reprocess</div>
+    <div class="service-box">Freon Charging</div>
+    <div class="service-box">Preventive Maintenance</div>
+    <div class="service-box">System Check-Up</div>
+    <div class="service-box">Troubleshooting</div>
+    <div class="service-box">Parts Replacement</div>
+    <div class="service-box">Washing Machine Repair</div>
+</section>
+
+<footer>
+    <p>© 2024 AirCooltek Refrigeration & Air-Conditioning</p>
+</footer>
+
+</body>
+</html>

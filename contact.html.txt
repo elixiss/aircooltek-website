@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - AirCooltek</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <img src="assets/img/logo.png" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Company</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Contact Us</h1>
+</section>
+
+<section class="contact-section">
+    <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p><strong>Address:</strong> Blk 15 Lot 4 Chavez St., Central Bicutan, Taguig City</p>
+        <p><strong>Contact:</strong> 0918-592-5331 / 0991-744-1185</p>
+        <p><strong>Email:</strong> markivanditaunon8@gmail.com</p>
+    </div>
+
+    <form class="contact-form">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+        <input type="text" placeholder="Phone Number">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2024 AirCooltek Refrigeration & Air-Conditioning</p>
+</footer>
+
+</body>
+</html>
