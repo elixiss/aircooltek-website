@@ -1,0 +1,134 @@
+/* COLOR VARIABLES */
+:root {
+    --primary: #15CEDB;
+    --secondary: #0E4F66;
+    --dark: #0C2333;
+    --light: #ffffff;
+}
+
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--light);
+}
+
+/* NAVIGATION */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    align-items: center;
+    background: var(--light);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.logo {
+    height: 60px;
+}
+.navbar ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.navbar a {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: bold;
+}
+.navbar a.active {
+    color: var(--primary);
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(to right, var(--secondary), var(--primary));
+    color: white;
+    padding: 120px 50px;
+    text-align: center;
+}
+.btn-primary {
+    background: var(--primary);
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    gap: 20px;
+}
+.feature-box {
+    background: var(--light);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* PAGE HEADER */
+.page-header {
+    background: var(--secondary);
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+/* CONTENT */
+.content {
+    padding: 50px 80px;
+}
+
+/* SERVICES GRID */
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+.service-box {
+    background: var(--primary);
+    padding: 25px;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* CONTACT */
+.contact-section {
+    display: flex;
+    padding: 50px;
+    gap: 40px;
+}
+.contact-info {
+    flex: 1;
+}
+.contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+button {
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: var(--dark);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
